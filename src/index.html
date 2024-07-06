@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+        <div class="logo">Bookshop</div>
+        <div class="burger-menu" id="burger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav>
+            <a href="#" class="nav-link" id="books-link">Books</a>
+            <a href="#" class="nav-link" id="audiobooks-link">Audiobooks</a>
+            <a href="#" class="nav-link" id="stationery-link">Stationery & Gifts</a>
+            <a href="#" class="nav-link" id="blog-link">Blog</a>
+        </nav>
+        <div class="icons">
+            <div class="icon user"></div>
+            <div class="icon search"></div>
+            <div class="icon cart">
+                <span class="badge" id="cart-badge">0</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="slider">
+            <div class="slides">
+                <img src="./assets/banner 1.png" alt="Slide 1" class="active">
+                <img src="./assets/banner 2.png" alt="Slide 2">
+                <img src="./assets/banner 3.png" alt="Slide 3">
+            </div>
+            <div class="controls">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <div class="side-links">
+                <a href="#" class="side-link"><img src="./assets/promo 1.png" alt="promo1"></a>
+                <a href="#" class="side-link"><img src="./assets/promo 2.png" alt="promo1"></a>
+            </div>
+        </section>
+       <div class="container">
+    <section class="categories">
+        <ul>
+            <li class="category active">Architecture</li>
+            <li class="category">Art & Fashion</li>
+            <li class="category">Biography</li>
+            <li class="category">Business</li>
+            <li class="category">Crafts & Hobbies</li>
+            <li class="category">Drama</li>
+            <li class="category">Fiction</li>
+            <li class="category">Food & Drink</li>
+            <li class="category">Health & Wellbeing</li>
+            <li class="category">History & Politics</li>
+            <li class="category">Humor</li>
+            <li class="category">Poetry</li>
+            <li class="category">Psychology</li>
+            <li class="category">Science</li>
+            <li class="category">Technology</li>
+            <li class="category">Travel & Maps</li>
+        </ul>
+    </section>
+
+    <section class="books">
+        <!-- Книги будут подгружаться сюда -->
+    </section>
+</div>
+
+<button id="load-more">Load more</button>
+
+    </main>
+    <script src="bundle.js"></script>
+</body>
+</html>
